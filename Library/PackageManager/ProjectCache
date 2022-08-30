@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637972905795853832
-    m_Hash: 2667764267
+      ticks: 637974548168274725
+    m_Hash: 401022876
   m_LockFileStatus:
     m_FilePath: D:/Works/Unity/Project/ProjectE-2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637972905795963532
-    m_Hash: 2406014090
+      ticks: 637974548168464223
+    m_Hash: 3904414636
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -339,12 +339,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: 714a2838c2d55add3d0accf539488f96caa757b2
         path: 
-    - packageId: com.unity.ide.rider@2.0.7
+    - packageId: com.unity.ide.rider@3.0.15
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 3.0.15
       source: 1
-      resolvedPath: D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.ide.rider@3.0.15
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -426,17 +426,11 @@ m_PackageAssets:
         - 3.0.15
         verified: 2.0.7
       dependencies:
-      - name: com.unity.test-framework
-        version: 1.1.1
-      resolvedDependencies:
-      - name: com.unity.test-framework
-        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ext.nunit
+        version: 1.0.6
       keywords: []
       registry:
         id: main
@@ -450,13 +444,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
+      datePublishedTicks: 637914298700000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
+        revision: b61ff0378932fdf03b5891e09c91728337de674c
         path: 
     - packageId: com.unity.ide.visualstudio@2.0.14
       testable: 0
