@@ -41,10 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
-    <Analyzer Include="D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\Plugins\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\Editor\RuleTileEditor.cs" />
      <None Include="Assets\Plugins\Samples\2D Pixel Perfect\4.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\Editor\Unity.2D.PixelPerfect.Samples.Editor.asmdef" />
      <Reference Include="UnityEngine">
@@ -290,20 +286,20 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="ICSharpCode.NRefactory">
      <HintPath>D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.render-pipelines.core@10.9.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTweenEditor">
-     <HintPath>D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>D:\Works\Unity\Project\ProjectE-2D\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Works\Unity\Project\ProjectE-2D\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
